@@ -12,6 +12,32 @@ img {
   font-weight: 900;
 }
 
+.flexbox-container {
+  display: flex;
+  justify-content: center;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+}
+
+.item1,
+.item2,
+.item3,
+.item4 {
+  display: flow-root;
+  text-align: center;
+  width: 200px;
+}
+
+.item1,
+.item2,
+.item3 {
+  padding-right: 52px;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
